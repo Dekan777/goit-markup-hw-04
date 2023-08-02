@@ -140,9 +140,8 @@ ul {
   position: relative;
   
 }
-.nav-studio.current {
+.current {
 color: #404bbf;
-
 }
 .nav-studio.current:after {
   content: "";
