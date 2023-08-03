@@ -368,6 +368,16 @@ ul {
   margin-bottom: 8px;
 }
 
+.list-icon-botton1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  
+}
 .list-section-two {
   display: flex;
   gap: 24px;
