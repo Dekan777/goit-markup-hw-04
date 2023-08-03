@@ -317,6 +317,7 @@ ul {
     url(../images/fon_hero.jpg);
     max-width: 1440px;
     background-position: center;
+    margin: auto;
 }
 
 .section-one-h {
