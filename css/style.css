@@ -425,12 +425,10 @@ ul {
   display: flex;
   justify-content: center;
   gap: 24px;
-
 }
 .team-card {
   width: 40px;
   height: 40px;
-
 }
 
 .list-team-card-one {
@@ -441,7 +439,6 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .list-team-card-one:hover,
@@ -477,7 +474,6 @@ ul {
 }
 .icon-team-card {
   fill: #f4f4fd;
-
 }
 
 .header {
