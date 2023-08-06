@@ -93,6 +93,7 @@ ul {
 
 .link-card {
   display: block;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-card:hover,
@@ -115,25 +116,7 @@ ul {
 .list-one {
   width: calc((100% - 3 * 24px) / 4);
 }
-/*.button-all {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: var(--color-1);
-  background-color: var(--color-5);
-  padding: 12px 24px;
-  border: 1px solid var(--color-7);
-  border-radius: 4px;
-}
 
-.button-all:hover,
-.button-all:focus {
-  color: var(--color-4);
-  background-color: var(--color-3);
-  cursor: pointer;
-  border: 1px solid transparent; */
 .nav-studio {
   font-weight: 500;
   font-size: 16px;
@@ -234,6 +217,10 @@ ul {
   padding: 12px 24px;
   border: 1px solid var(--color-7);
   border-radius: 4px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-all:hover,
