@@ -91,6 +91,11 @@ ul {
   text-decoration: none;
 }
 
+.link-card {
+  display: block;
+}
+
+
 .web-studio-nav {
   color: var(--color-2);
 }
@@ -236,6 +241,8 @@ ul {
   background-color: var(--color-3);
   cursor: pointer;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .list-row1 {
@@ -587,7 +594,6 @@ ul {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 .is-hidden {
   opacity: 0;
@@ -623,7 +629,6 @@ ul {
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 .button-modal:hover,
@@ -635,10 +640,6 @@ ul {
   fill: #ffffff;
 }
 
-
-
 .modal-link-close {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
-
