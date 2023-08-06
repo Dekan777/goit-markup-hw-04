@@ -76,13 +76,6 @@ ul {
   margin-bottom: 16px;
 }
 
-/*
-}
-.button-modal:hover > .modal-link-close {
-  fill: #ffffff;
-}
-
-*/
 
 
 .link-card:hover p,
@@ -661,7 +654,8 @@ ul {
   background-color: #404bbf;
   border: none;
 }
-.button-modal:hover > .modal-link-close {
+.button-modal:hover > .modal-link-close, 
+  .button-modal:focus > .modal-link-close {
   fill: #ffffff;
 }
 
