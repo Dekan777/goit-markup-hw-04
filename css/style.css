@@ -504,12 +504,15 @@ ul {
 }
 
 .title-five {
+  color: var(--navyblue, #2E2F42);
+  text-align: center;
   font-size: 36px;
-  line-height: 1.11;
-  color: var(--color-2);
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize; 
+  margin-top: 130px;
   margin-bottom: 72px;
-  display: flex;
-  justify-content: center;
+  font-family: Roboto;
 }
 .link-item-client {
   width: 100%;
